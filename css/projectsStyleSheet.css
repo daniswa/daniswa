@@ -1,0 +1,75 @@
+
+
+
+
+
+
+video{
+     float:center center;
+     position:fixed;
+     margin-left:none;
+     margin-top:none;
+     margin-right:none;
+     margin-bottom:none;
+     padding:none;
+     width:100%;
+     height:100%;
+     max-width:100%;
+     max-height:100%;
+     overflow:auto;
+     z-index:0;
+}
+
+img#grid{
+     float:center center;
+     position:fixed;
+     margin-left:none;
+     margin-top:none;
+     margin-right:none;
+     margin-bottom:none;
+     opacity:0.9;
+     padding:none;
+     width:100%;
+     height:100%;
+     max-width:100%;
+     max-height:100%;
+     overflow:auto;
+     z-index:1;
+}
+
+ul#navBar{
+     list-style-type:in-line;
+     float:left;
+     position:fixed;
+     right:0;
+     left:0;
+     top:0;
+     width:70%;
+     margin-left:4%;
+     margin-top:2%;
+     margin-right:0;
+     padding:none;
+     z-index:2;
+}
+
+img#cornerPic0{
+     float:left;
+     position:fixed;
+     margin-left:1%;
+     margin-top:2%;
+     margin-right:3%;
+     margin-bottom:none;
+     height:auto;
+     width:4%;
+     z-index:2;
+}
+
+li.desktop{
+     display:block;
+     text-align:left;
+     margin-left:2%;
+     margin-top:2%;
+     margin-right:2%;
+     margin-bottom:2%;
+     z-index:2;
+}

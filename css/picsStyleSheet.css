@@ -1,0 +1,49 @@
+
+
+
+
+
+
+body{
+    background:linear-gradient(135deg,#000000,#049B59)
+    /*background-repeat:no-repeat;
+    background-size:cover;
+    z-index:0;*/
+}
+
+ul#navBar{
+     list-style-type:in-line;
+     float:left;
+     position:fixed;
+     right:0;
+     left:0;
+     top:0;
+     width:70%;
+     margin-left:4%;
+     margin-top:2%;
+     margin-right:0;
+     padding:none;
+     z-index:1;
+}
+
+img#cornerPic0{
+     float:left;
+     position:fixed;
+     margin-left:1%;
+     margin-top:2%;
+     margin-right:3%;
+     margin-bottom:none;
+     height:auto;
+     width:4%;
+     z-index:1;
+}
+
+li.desktop{
+     display:block;
+     text-align:left;
+     margin-left:2%;
+     margin-top:2%;
+     margin-right:2%;
+     margin-bottom:2%;
+     z-index:1;
+}
