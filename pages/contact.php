@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>DANISWA DEVELOPMENT</title>
+    <title>DANISWA DEVELOPMENT | Contact Us</title>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href='../stylesheets/stylesheet.css'>
@@ -20,26 +20,9 @@
     <link href='../favicon.ico' rel='icon' type='image/png'>
 </head>
 <body>
-    <script>
-          (function(i,s,o,g,r,a,m){
-              i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                  (i[r].q=i[r].q||[]).push(arguments)
-              },
-              i[r].l=1*new Date();
-              a=s.createElement(o),
-              m=s.getElementsByTagName(o)[0];
-              a.async=1;
-              a.src=g;
-              m.parentNode.insertBefore(a,m)
-          }
-          )(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-          ga('create', 'UA-77978074-1', 'auto');
-          ga('send', 'pageview');
-    </script>
-    <?php
-        include '../functions/email_function.php';
-        include '../functions/pages_header.php';
-    ?>
+    <?php include '../functions/analytics.php'; ?>
+    <?php include '../functions/email_function.php'; ?>
+    <?php include '../functions/pages_header.php'; ?>
     <!--<div class='container-fluid'>
         <div class='row'>
             <div class='col-xs-12 col-sm-12 col-md-8 col-md-offset-1 col-lg-8 col-lg-offset-1'>
@@ -153,9 +136,7 @@
              <p>Or by Social Media</p>
         </div>
     </div>
-    <div id='footer'>
-        <p>DANISWA DEVELOPMENT 2015 * swa67dani@gmail.com * WWW.DANISWA.COM<p>
-    </div>
+        <?php include '../functions/footer.php'; ?>
     <!--<script>
     function validElements(){
         var fName = document.forms['emailForm']['fName'].value;

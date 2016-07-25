@@ -135,3 +135,38 @@ p{
     font-family:arial;
     color:#FFFFFF;
 }
+
+hr#footer{
+    margin:auto;
+    margin-bottom:7%;
+}
+
+p#footer{
+    margin:auto;
+    margin-top:5%;
+    font-family:arial;
+    color:#FFFFFF;
+}
+
+ul.footerList{
+    text-align:left;
+    margin:auto;
+    padding:auto;
+}
+
+li.footerHead{
+    list-style-type:none;
+    text-align:left;
+    margin:auto;
+    margin-left:0;
+    margin-bottom:3%;
+    font-weight:700;
+    font-family:arial;
+    color:#FFFFFF;
+}
+
+a.footerItems{
+    text-align:left;
+    font-family:arial;
+    color:#AAAAAA;
+}

@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>DANISWA DEVELOPMENT</title>
+    <title>DANISWA DEVELOPMENT | Home</title>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name='description' content='Web development and Graphic Design'>
@@ -20,22 +20,7 @@
     <link href='favicon.ico' rel='icon' type='image/png'>
 </head>
 <body>
-    <script>
-          (function(i,s,o,g,r,a,m){
-              i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                  (i[r].q=i[r].q||[]).push(arguments)
-              },
-              i[r].l=1*new Date();
-              a=s.createElement(o),
-              m=s.getElementsByTagName(o)[0];
-              a.async=1;
-              a.src=g;
-              m.parentNode.insertBefore(a,m)
-          }
-          )(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-          ga('create', 'UA-77978074-1', 'auto');
-          ga('send', 'pageview');
-    </script>
+    <?php include 'functions/analytics.php'; ?>
     <div class='container-fluid'>
         <div class='row'>
             <div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
@@ -61,7 +46,7 @@
                 </div>
                 <div class='row'>
                     <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
-                        <h3 id='description'>Web Development and Graphic Design at it's Finest!</h3>
+                        <h3 id='description'>Web Development and Graphic Design at its Finest!</h3>
                     </div>
                 </div>
             </div>
@@ -75,7 +60,7 @@
         </div>
         <div class='row'>
             <div class='col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 hidden-md hidden-lg'>
-                <a href='pages/bio.php'><img class='mobileButton' src='images/bio_mobile.png'></a>
+                <a href='pages/bio.php'><img class='mobileButton' src='images/services_mobile.png'></a>
             </div>
         </div>
         <div class='row'>
@@ -97,7 +82,7 @@
                 </div>
                 <div class='hidden-xs hidden-sm col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1'>
                     <div id='button2'>
-                        <img id='button2' src='images/bioButton.png'>
+                        <img id='button2' src='images/servicesButton.png'>
                     </div>
                     <div id='animate2'>
                         <a href='pages/bio.php'><img class='hubs' src='images/hubs.png'></a>
@@ -122,7 +107,56 @@
         </div>
     </div>
     <div id='footer'>
-        <p>DANISWA DEVELOPMENT 2015 * swa67dani@gmail.com * WWW.DANISWA.COM<p>
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1'>
+                    <hr id='footer'>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1'>
+                    <div class='row'>
+                        <div class='col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                            <ul class='footerList'>
+                                <li class='footerHead'>Daniswa Development</li>
+                                <li><a href='index.php' class='footerItems'>Home Page</a></li>
+                                <li><a href='pages/projects.php' class='footerItems'>Web Development/Graphic Design</a></li>
+                                <li><a href='pages/businessCards.php' class='footerItems'>Business Cards</a></li>
+                            </ul>
+                        </div>
+                        <div class='col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                            <ul class='footerList'>
+                                <li class='footerHead'>Services</li>
+                                <li><a href='pages/services.php' class='footerItems'>Services</a></li>
+                                <li><a href='pages/whatWeDo.php' class='footerItems'>What We Do And Why We Do It</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-xs-12 col-sm-12 col-md-5 col-lg-5'>
+                    <div class='row'>
+                        <div class='col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                            <ul class='footerList'>
+                                <li class='footerHead'>About Us</li>
+                                <li><a href='pages/ourTeam.php' class='footerItems'>Our Team</a></li>
+                            </ul>
+                        </div>
+                        <div class='col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                            <ul class='footerList'>
+                                <li class='footerHead'>Contact</li>
+                                <li><a href='pages/contact.php' class='footerItems'>Contact Us</a></li>
+                                <li><a href='pages/careers.php' class='footerItems'>Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+                    <p id='footer'>Daniswa Development 2015 * swa67dani@gmail.com * www.daniswa.com<p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>

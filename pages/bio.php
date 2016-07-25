@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>DANISWA DEVELOPMENT</title>
+    <title>DANISWA DEVELOPMENT | Services</title>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name='description' content='Web development and Graphic Design'>
@@ -51,8 +51,6 @@
             </div>
         </div>
     </div>
-    <div id='footer'>
-        <p>DANISWA DEVELOPMENT 2015 * swa67dani@gmail.com * WWW.DANISWA.COM<p>
-    </div>
+        <?php include '../functions/footer.php'; ?>
 </body>
 </html>

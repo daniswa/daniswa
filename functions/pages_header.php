@@ -15,7 +15,7 @@
                         <ul class='dropdown-menu dropdown-menu-right'>
                             <li><a href='../index.php'><h3 class='navLink'>Home</h3></a></li>
                             <li><a href='projects.php'><h3 class='navLink'>Projects</h3></a></li>
-                            <li><a href='bio.php'><h3 class='navLink'>Bio</h3></a></li>
+                            <li><a href='bio.php'><h3 class='navLink'>Services</h3></a></li>
                             <li><a href='contact.php'><h3 class='navLink'>Contact</h3></a></li>
                         </ul>
                     </div>
@@ -51,7 +51,7 @@
                         <ul id='navBar'>
                             <li class='navLink'><a href='../index.php'><h3>Home</h3></a></li>
                             <li class='navLink'><a href='projects.php'><h3>Projects</h3></a></li>
-                            <li class='navLink'><a href='bio.php'><h3>Bio</h3></a></li>
+                            <li class='navLink'><a href='services.php'><h3>Services</h3></a></li>
                             <li class='navLink'><a href='contact.php'><h3>Contact</h3></a></li>
                         </ul>
                     </div>
@@ -59,6 +59,4 @@
             </div>
         </div>
     </div>
-    <div class='row'>
-        <hr>
-    </div>
+    <hr id='header'>
